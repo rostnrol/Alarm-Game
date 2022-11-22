@@ -9,8 +9,6 @@ public class Alarm : MonoBehaviour
     [SerializeField] private ThiefChecker _thiefChecker;
 
     private Coroutine _volumeChange;
-
-    private float _targetVolume;
     private float _volumeChangeSpeed = 0.2f;
 
     private void Start()
